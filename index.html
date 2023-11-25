@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="practice1.css" />
+
+    <script src="practice1.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="heading">Hand Cricket</div>
+      <div class="buttons"> 
+        <div class="row"> 
+          <button onclick="
+          alert('You opted=1');
+          if (rand1()==1){
+            alert('Out\nGame Over\nYour score='+runs);
+            runs=0;
+            elsecontinue 
+          }
+          alert(`Total Runs= ${runs=runs+1}`)
+          ">1</button>
+      
+          <button onclick="
+          alert('You opted=2');
+          if (rand1()==2){
+            alert('Out\nGame Over\nYour score='+runs);
+            runs=0;
+            elsecontinue
+          }
+          alert(`Total Runs= ${runs=runs+2}`)
+          ">2</button></div>
+        <div class="row">
+          <button onclick="
+          alert('You opted=3');
+        if (rand1()==3){
+          alert('Out\nGame Over\nYour score='+runs);
+          runs=0;
+          elsecontinue
+        }
+        
+        alert(`Total Runs= ${runs=runs+3}`)
+        ">3</button>
+    
+        <button onclick="
+         alert('You opted=4');
+        if (rand1()==4){
+          alert('Out\nGame Over\nYour score='+runs);
+          runs=0;
+          elsecontinue
+        }
+        alert(`Total Runs= ${runs=runs+4}`)
+        ">4</button>
+        </div>
+        <div class="row">
+          <button onclick="       
+          alert('You opted=5');
+         if (rand1()==5){
+           alert('Out\nGame Over\nYour score='+runs);
+           runs=0;
+           elsecontinue
+         }
+         alert(`Total Runs= ${runs=runs+5}`)
+         ">5</button>
+   
+         <button onclick="
+          alert('You opted=6');
+         if (rand1()==6){
+           alert('Out\nGame Over\nYour score='+runs);
+           runs=0;
+           elsecontinue
+         }
+         alert(`Total Runs= ${runs=runs+6}`)
+         ">6</button>
+        </div>
+        <button onclick="
+        alert('You opted=0');
+        if (rand1()==0){
+          alert('defence');
+          elsecontinue
+        }
+        alert(`Total Runs= ${runs=runs+0}`)
+        ">Defence</button>
+    
+        
+    
+        
+    
+       
+      </div>
+     
+    </div>
+   
+
+
+
+    <script>
+      let runs=0;
+      function rand1(){
+        let y=Math.floor(Math.random()*(6-0+1))+0;
+        alert('Computer opted='+y);
+        return y;
+
+      }
+      
+        
+    
+    </script>
+  </body>
+</html>

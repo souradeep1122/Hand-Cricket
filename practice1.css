@@ -1,0 +1,55 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    border: 0%;
+}
+.main{
+    background: linear-gradient(45deg,white,rgb(88, 56, 246));
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    filter: blur(1px);
+}
+.heading{
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: rgb(17, 0, 255);
+   
+}
+.buttons{
+    background: linear-gradient(to right ,salmon,peru,pink);
+    border-radius: 20px 20px 0px 20px;
+   
+    
+    padding: 40px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+button{
+    width: 120px;
+    height: 60px;
+    background-color: rgb(213, 214, 214);
+    
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    border-radius: 20px;
+    border: solid black;
+
+}
+button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
